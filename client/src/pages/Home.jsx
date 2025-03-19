@@ -6,6 +6,7 @@ import SwiperCore from 'swiper';
 import 'swiper/css/bundle';
 import ListingItem from '../components/ListingItem';
 import Footer from '../components/Footer';
+import Features from '../components/Features';
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
@@ -131,8 +132,12 @@ export default function Home() {
         )}
       </div>
 
+      <div className='max-w-6xl mx-auto p-3 flex flex-col gap-8 my-10'>
+      {/* features */}
+      <Features/>
       {/* footer............. */}
       <Footer/>
+      </div>
     </div>
   );
 }
