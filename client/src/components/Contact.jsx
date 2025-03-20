@@ -29,6 +29,7 @@ export default function Contact({ listing }) {
             for{' '}
             <span className='font-semibold'>{listing.name.toLowerCase()}</span>
           </p>
+          
           <textarea
             name='message'
             id='message'
