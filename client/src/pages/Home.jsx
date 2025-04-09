@@ -165,9 +165,12 @@ export default function Home() {
       <Features/>
       {/* about */}
       <About2/>
+      
+      
+      </div>
+
       {/* footer............. */}
       <Footer/>
-      </div>
     </div>
   );
 }
