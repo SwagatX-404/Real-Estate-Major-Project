@@ -163,12 +163,17 @@ export default function Home() {
       <Chatbot />
       {/* features */}
       <Features/>
+
+      <img src="https://as2.ftcdn.net/v2/jpg/06/30/56/07/1000_F_630560706_VOi3H6OtB7FSrle4pFx6zm4NYcRKEZEZ.jpg" alt="" />
+
       {/* about */}
       <About2/>
-      
+      <img src="https://as1.ftcdn.net/v2/jpg/10/51/39/00/1000_F_1051390087_gvs0hXNQ0cAHEGcD16QMM73wQrCleeIe.jpg" alt="" />
       
       </div>
-
+      <div className=' p-3 flex flex-col gap-8 my-10 '>
+<img src="https://as2.ftcdn.net/v2/jpg/07/02/48/55/1000_F_702485551_NB6ORLjvaUSKRFP0UuLTJXtmDRnZvdT0.jpg" alt="" />
+</div>
       {/* footer............. */}
       <Footer/>
     </div>
