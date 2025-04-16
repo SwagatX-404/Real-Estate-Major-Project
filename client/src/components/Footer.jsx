@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="max-padd-container font-sans bg-slate-300 text-gray-700 rounded-3xl shadow-md">
+    <footer className="max-padd-container font-sans bg-zinc-950 text-gray-500 rounded-3xl shadow-md">
       {/* Glassmorphic Background */}
       <div className=" absolute inset-0 bg-gradient-to-br from-blue-500/20 via-purple-500/10 to-pink-500/20 blur-3xl opacity-50 -z-10"></div>
 
