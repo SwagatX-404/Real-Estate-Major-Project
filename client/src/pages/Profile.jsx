@@ -223,7 +223,7 @@ export default function Profile() {
           className='bg-emerald-500 text-white p-3 rounded-full uppercase text-center hover:opacity-95'
           to={'/create-listing'}
         >
-          Create Listing
+          Post Listing
         </Link>
       </form>
       <div className='flex justify-between mt-5'>
