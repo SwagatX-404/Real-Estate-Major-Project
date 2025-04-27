@@ -55,22 +55,24 @@ export default function Home() {
       {/* top */}
       <div className='flex flex-col gap-6 p-28 px-3 max-w-[1400px] mx-auto'>
         <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>
-        Find <span className='text-slate-500 animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-400'>Spaces </span>
+          Find <span className='text-slate-500 animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-400'>Spaces </span>
           <br />
           That Match Your Lifestyle...
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
-        Discover handpicked properties to buy, rent, or sell.
-        Smart filters, rich visuals, and personalized recommendations make it easy to find your perfect space.
+          Discover handpicked properties to buy, rent, or sell.
+          Smart filters, rich visuals, and personalized recommendations make it easy to find your perfect space.
           <br />
           We have a wide range of properties for you to choose from.
         </div>
         <Link
-          to={'/search'}
-          className='text-xs sm:text-sm text-blue-800 font-bold hover:underline'
+          to="/search"
+          className=" w-96 px-6 py-3 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-bold text-center rounded-full shadow-lg transition-all duration-500 ease-in-out border-2 border-transparent hover:border-white hover:shadow-[0_0_15px_5px_rgba(0,0,0,0.6)]"
         >
           Explore Listings...
         </Link>
+
+
       </div>
 
 
@@ -93,22 +95,22 @@ export default function Home() {
       </Swiper> */}
 
       {/* swiper */}
-<Swiper navigation>
-  {offerListings &&
-    offerListings.length > 0 &&
-    offerListings.map((listing) => (
-      // ✅ Moved key prop to SwiperSlide (was previously on inner div)
-      <SwiperSlide key={listing._id}>
-        <div
-          style={{
-            background: `url(${listing.imageUrls[0]}) center no-repeat`,
-            backgroundSize: 'cover',
-          }}
-          className='h-[500px]'
-        ></div>
-      </SwiperSlide>
-    ))}
-</Swiper>
+      <Swiper navigation>
+        {offerListings &&
+          offerListings.length > 0 &&
+          offerListings.map((listing) => (
+            // ✅ Moved key prop to SwiperSlide (was previously on inner div)
+            <SwiperSlide key={listing._id}>
+              <div
+                style={{
+                  background: `url(${listing.imageUrls[0]}) center no-repeat`,
+                  backgroundSize: 'cover',
+                }}
+                className='h-[500px]'
+              ></div>
+            </SwiperSlide>
+          ))}
+      </Swiper>
 
 
       {/* listing results for offer, sale and rent */}
@@ -156,23 +158,23 @@ export default function Home() {
       </div>
 
       <div className='max-w-6xl mx-auto p-3 flex flex-col gap-8 my-10'>
-      {/* chatbot */}
-      <Chatbot />
-      {/* features */}
-      <Features/>
+        {/* chatbot */}
+        <Chatbot />
+        {/* features */}
+        <Features />
 
-      <img src="https://as2.ftcdn.net/v2/jpg/06/30/56/07/1000_F_630560706_VOi3H6OtB7FSrle4pFx6zm4NYcRKEZEZ.jpg" alt="" />
+        <img src="https://as2.ftcdn.net/v2/jpg/06/30/56/07/1000_F_630560706_VOi3H6OtB7FSrle4pFx6zm4NYcRKEZEZ.jpg" alt="" />
 
-      {/* about */}
-      <About2/>
-      <img src="https://as1.ftcdn.net/v2/jpg/10/51/39/00/1000_F_1051390087_gvs0hXNQ0cAHEGcD16QMM73wQrCleeIe.jpg" alt="" />
-      
+        {/* about */}
+        <About2 />
+        <img src="https://as1.ftcdn.net/v2/jpg/10/51/39/00/1000_F_1051390087_gvs0hXNQ0cAHEGcD16QMM73wQrCleeIe.jpg" alt="" />
+
       </div>
       <div className=' p-3 flex flex-col gap-8 my-10 '>
-<img src="https://as2.ftcdn.net/v2/jpg/07/02/48/55/1000_F_702485551_NB6ORLjvaUSKRFP0UuLTJXtmDRnZvdT0.jpg" alt="" />
-</div>
+        <img src="https://as2.ftcdn.net/v2/jpg/07/02/48/55/1000_F_702485551_NB6ORLjvaUSKRFP0UuLTJXtmDRnZvdT0.jpg" alt="" />
+      </div>
       {/* footer............. */}
-      <Footer/>
+      <Footer />
     </div>
   );
 }
