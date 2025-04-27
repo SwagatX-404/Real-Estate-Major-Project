@@ -65,12 +65,13 @@ export default function Home() {
           <br />
           We have a wide range of properties for you to choose from.
         </div>
-        <Link
-          to="/search"
-          className=" w-96 px-6 py-3 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-bold text-center rounded-full shadow-lg transition-all duration-500 ease-in-out border-2 border-transparent hover:border-white hover:shadow-[0_0_15px_5px_rgba(0,0,0,0.6)]"
-        >
-          Explore Listings...
-        </Link>
+                    <Link
+              to="/search"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg px-6 py-3 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-bold text-center rounded-full shadow-lg transition-all duration-500 ease-in-out border-2 border-transparent hover:border-white hover:shadow-[0_0_15px_5px_rgba(0,0,0,0.6)]"
+            >
+              Explore Listings...
+            </Link>
+
 
 
       </div>
