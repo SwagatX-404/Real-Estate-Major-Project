@@ -101,11 +101,13 @@ export default function Listing() {
               {listing.address}
             </p>
             <div className='flex gap-4'>
-              <p className='bg-red-900 w-full max-w-[200px] text-white text-center p-1 rounded-md'>
+              <p className='bg-gradient-to-r from-blue-900 via-blue-800 to-gray-900
+                            w-full max-w-[200px] text-white text-center p-1 rounded-3xl'>
                 {listing.type === 'rent' ? 'For Rent' : 'For Sale'}
               </p>
               {listing.offer && (
-                <p className='bg-green-900 w-full max-w-[200px] text-white text-center p-1 rounded-md'>
+                <p className='bg-gradient-to-r from-green-800 via-emerald-900 to-gray-900
+                              w-full max-w-[200px] text-white text-center p-1 rounded-3xl'>
                   ₹{+listing.regularPrice - +listing.discountPrice} OFF
                 </p>
               )}
@@ -139,7 +141,8 @@ export default function Listing() {
             {currentUser && listing.userRef !== currentUser._id && !contact && (
               <button
                 onClick={() => setContact(true)}
-                className='bg-slate-700 text-white rounded-lg uppercase hover:opacity-95 p-3'
+                className='bg-gradient-to-r from-green-900 via-emerald-900 to-gray-900
+                          text-white rounded-3xl uppercase hover:opacity-95 p-3'
               >
                 Contact landlord
               </button>
