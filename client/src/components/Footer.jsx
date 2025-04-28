@@ -17,9 +17,11 @@ const Footer = () => {
 
         <div className="flex flex-col items-center md:items-start">
           <Link to={'/'}>
+          <img className='w-28' src="../src/public/img/home.png" alt="" />
             <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
               HomiX
             </h1>
+            
           </Link>
           <p className="mt-4 font-medium text-center md:text-left text-gray-500">
           We are a modern real estate platform that simplifies the process of buying, selling, and renting properties. Our mission is to connect buyers, sellers, and renters with ease and transparency.          </p>
