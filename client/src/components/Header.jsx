@@ -29,14 +29,19 @@ export default function Header() {
       <div className="flex justify-between items-center max-w-7xl mx-auto p-4">
         {/* Logo with glow effect */}
         <Link to="/" className="group">
-          <h1 className="font-bold text-xl sm:text-2xl flex items-center space-x-1">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 group-hover:from-pink-500 group-hover:to-cyan-500 transition-all duration-500">
-              Homi
-            </span>
-            <span className="text-gray-800 dark:text-gray-200 group-hover:text-cyan-500 transition-colors duration-300">
-              X
-            </span>
-          </h1>
+          <div className="flex items-center space-x-2">
+            <img className="w-12 h-12 object-contain" src="../src/public/img/home.png" alt="Logo" />
+
+            <h1 className="font-bold text-xl sm:text-2xl flex items-center space-x-1">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 group-hover:from-pink-500 group-hover:to-cyan-500 transition-all duration-500">
+                Homi
+              </span>
+              <span className="text-gray-800 dark:text-gray-200 group-hover:text-cyan-500 transition-colors duration-300">
+                X
+              </span>
+            </h1>
+          </div>
+
         </Link>
 
         {/* Search bar with glassmorphism */}
