@@ -215,12 +215,16 @@ export default function Profile() {
         />
         <button
           disabled={loading}
-          className='bg-blue-950 text-white rounded-full p-3 uppercase hover:opacity-95 disabled:opacity-80'
+          className='bg-gradient-to-r from-purple-900 via-indigo-900 to-gray-900
+
+                   text-white rounded-full p-3 uppercase hover:opacity-95 disabled:opacity-80'
         >
           {loading ? 'Loading...' : 'Update'}
         </button>
         <Link
-          className='bg-emerald-500 text-white p-3 rounded-full uppercase text-center hover:opacity-95'
+          className='bg-gradient-to-r from-green-950 via-emerald-900 to-gray-900
+
+                   text-white p-3 rounded-full uppercase text-center hover:opacity-95'
           to={'/create-listing'}
         >
           Post Listing
