@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div>
       {/* top */}
-      <div className='flex flex-col gap-6 p-28 px-3 max-w-[1400px] mx-auto'>
+      {/* <div className='flex flex-col gap-6 p-28 px-3 max-w-[1400px] mx-auto'>
         <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>
           Find <span className='text-slate-500 animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-400'>Spaces </span>
           <br />
@@ -74,7 +74,45 @@ export default function Home() {
 
 
 
-      </div>
+      </div> */}
+      <div className="flex flex-col-reverse lg:flex-row items-center gap-10 p-10 max-w-[1400px] mx-auto">
+  
+  {/* Text Section */}
+  <div className="flex flex-col gap-6 flex-1">
+    <h1 className="text-slate-700 font-bold text-3xl lg:text-6xl">
+      Find <span className="text-slate-500 animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-400">Spaces</span>
+      <br />
+      That Match Your Lifestyle...
+    </h1>
+
+    <div className="text-gray-400 text-xs sm:text-sm">
+      Discover handpicked properties to buy, rent, or sell.
+      Smart filters, rich visuals, and personalized recommendations make it easy to find your perfect space.
+      <br />
+      We have a wide range of properties for you to choose from.
+    </div>
+
+    <Link
+      to="/search"
+      className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg px-6 py-3 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-bold text-center rounded-full shadow-lg transition-all duration-500 ease-in-out border-2 border-transparent hover:border-white hover:shadow-[0_0_15px_5px_rgba(0,0,0,0.6)]"
+    >
+      Explore Listings...
+    </Link>
+  </div>
+
+  {/* Image Section */}
+  <div className="flex-1 flex justify-center items-center">
+  <img
+    // src="https://img.freepik.com/premium-photo/real-estate-image-background-beautiful-house-front-view_800563-4682.jpg"
+    src='https://img.freepik.com/free-photo/three-dimensional-house-model_23-2151003972.jpg?t=st=1745873546~exp=1745877146~hmac=c249fec57b9f8723843295b9ca7b827138d4ffd05c18ba06cd915c52fd9a643a&w=996'
+    alt="About Us"
+    className="w-[300px] md:w-[400px] lg:w-[500px] h-[200px] md:h-[250px] lg:h-[300px] object-cover rounded-full shadow-2xl transition-transform duration-500 hover:-rotate-3 hover:scale-105  "
+  />
+</div>
+
+
+</div>
+
 
 
       {/* swiper */}
