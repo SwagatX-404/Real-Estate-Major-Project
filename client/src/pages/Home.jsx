@@ -254,7 +254,7 @@ export default function Home() {
 
       </div>
       <div className=' p-3 flex flex-col gap-8 my-10 '>
-        <img src="https://dhcmi.org/sites/default/files/banner/detroit_skyline.jpg" alt="" />
+        {/* <img src="https://dhcmi.org/sites/default/files/banner/detroit_skyline.jpg" alt="" /> */}
         {/* <img src="https://as2.ftcdn.net/v2/jpg/07/02/48/55/1000_F_702485551_NB6ORLjvaUSKRFP0UuLTJXtmDRnZvdT0.jpg" alt="" /> */}
       </div>
       {/* footer............. */}
