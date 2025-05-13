@@ -79,11 +79,11 @@ const About = () => {
           {/* Team Member 3 */}
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="https://media.licdn.com/dms/image/v2/D4E03AQFdA35lpa-rzw/profile-displayphoto-shrink_200_200/B4EZZ8rdTGHYAY-/0/1745848490090?e=1751500800&v=beta&t=mMw5GgIgqmP98Kx1lo0oh75W4rdKGaApvxyFO9JI03I"
+              src="https://media.licdn.com/dms/image/v2/D4E03AQHfnJJKqeQrLw/profile-displayphoto-shrink_800_800/B4EZaG.xkuIAAc-/0/1746021326114?e=1752710400&v=beta&t=qOWgT8FhaqxIswRL04jwCN7HxKXUF0nvqIenleYr2Wg"
               alt="Team Member"
               className="rounded-full w-32 h-32 mx-auto object-cover"
             />
-            <h3 className="mt-4 text-xl font-semibold text-gray-900 text-center">Shaswat Sh. Sahoo</h3>
+            <h3 className="mt-4 text-xl font-semibold text-gray-900 text-center">Shaswat Sw. Sahoo</h3>
             <p className="text-center text-gray-600">Head of Customer Service</p>
             <p className="mt-4 text-center text-gray-700">
               Shaswat is dedicated to providing excellent support to all of our users and helping them with any
