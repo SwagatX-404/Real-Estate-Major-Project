@@ -49,7 +49,7 @@ const About = () => {
           {/* Team Member 1 */}
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="https://media.licdn.com/dms/image/v2/D5603AQHv0OsB7HQjqw/profile-displayphoto-shrink_200_200/B56ZWLER4gHoAc-/0/1741794911575?e=2147483647&v=beta&t=nmKbdnHe6gwJazBI3Vu0SWvrWO_F9O_EdCgFBlSXS38"
+            src='https://media.licdn.com/dms/image/v2/D5603AQEaTExZz1Nxmw/profile-displayphoto-shrink_200_200/B56Zb88GQlH4AY-/0/1748000335830?e=1756339200&v=beta&t=KtJkRi3uLUidq20yriFxbkW_1J85iE-jsWQF6jtqRLs'
               alt="Team Member"
               className="rounded-full w-32 h-32 mx-auto object-cover"
             />
